@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'sofiapro-light';
+  src: url('/fonts/sofiapro-light-webfont.woff2') format('woff2'),
+       url('fonts/sofiapro-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.App {
+  text-align: center;
+  font-family: 'sofiapro-light';
+  background-color:#fff;
+
+
+}
+
+.nav-links{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+
+
+}
+.logo{
+  height:50px;
+}
+
+h1{
+  margin:none;
+  padding:none;
+}
+
+nav{
+  height:9vh;
+}
